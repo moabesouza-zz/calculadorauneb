@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="http://unead.uneb.br/wp-content/uploads/2019/09/favicon-uneb-dept.png" >
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    
+    <div class="form-calculo">
+      <img  id="img" src="img/logo.png"  >
+      <div class="title-text">
+        <div class="title media">
+          <div class="border-left" style="background-color: #24279d;height: 3px;position: absolute; width: 50px;; top:35%;; left: 530px;"></div> 
+Calcular <b>Média</b><div class="border-right" style="background-color: #f43746;height: 3px;position: absolute;width: 50px; right:530px; top:35%;"></div>
+</div>
+<div class="title Prova">
+Calcular <b>Prova</b></div>
+</div>
+<div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="media" checked>
+          <input type="radio" name="slide" id="prova">
+          <label for="media" class="slide media"> Calcular Média</label>
+          <label for="prova" class="slide prova">Calcular Prova</label>
+          <div class="slider-tab">
+</div>
+</div>
+
+<div class="form-inner">
+          <form action="#" class="media">
+            <div class="field">
+              <input autocomplete="off" type="text" placeholder="Nota Bloco 1" id="Input1"  required>
+            </div>
+<div class="field">
+              <input autocomplete="off" type="text" placeholder="Nota Bloco 2" id="Input2"  required>
+            </div>
+
+<div class="field">
+              <input autocomplete="off" type="text" placeholder="Nota Bloco 3" id="Input3"  required>
+            </div>
+            <p id="Media" value='' ></p>
+            
+
+<div class="pass-link">
+<a href="#"></a></div>
+<div class="field btn">
+              <div class="btn-layer">
+</div>
+
+<input type="submit"  onclick="calcularMedia();" value="Calcular">
+            </div>
+</form>
+<form action="#" class="prova">
+            <div class="field">
+              <input autocomplete="off" id="mediaf" placeholder="Digite sua media" required>
+            </div>
+<div class="field">
+              <input autocomplete="off" id="notap" placeholder="Digite a possivel nota da prova" required>
+            </div>
+            <p id="MediaFinal" value=''></p>
+<div class="field btn">
+              <div class="btn-layer">
+</div>
+<input type="submit" onclick="calcularProva();" value="Calcular">
+            </div>
+</form>
+</div>
+</div>
+</div>
+
+<script src="js/scriptlayout.js"></script>
+<script src="js/script.js" ></script>
+  </body>
+</html>
+
