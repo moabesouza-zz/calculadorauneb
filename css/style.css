@@ -180,3 +180,29 @@ form .btn input[type="submit"]{
   font-weight: 500;
   cursor: pointer;
 }
+
+.border-left{
+
+  background-color: #24279d;
+  height: 3px;
+  position: relative; 
+  width: 50px; 
+  top: -20px; 
+  left: 14px;
+ 
+  
+}
+
+.border-right{
+
+  background-color: #f43746;
+  height: 3px;
+  position: relative;
+  width: 50px; 
+  right: -265px; 
+  top:-23px;
+  
+}
+
+
+
