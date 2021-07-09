@@ -4,7 +4,8 @@
     var input2 = parseFloat(document.getElementById("Input2").value.replace(",", "."));
     var input3 = parseFloat(document.getElementById("Input3").value.replace(",", "."));
     
-    var media = parseFloat (input1*2 + input2*6 + input3*2)/10
+    //var media = parseFloat (input1*2 + input2*6 + input3*2)/10
+    var media = parseFloat (input1 + input2 + input3)/3
     var totalMedia = media.toFixed(2)
     var mediaP = parseFloat (50-7*totalMedia )/3
     var totalMediaP= mediaP.toFixed(2) 
